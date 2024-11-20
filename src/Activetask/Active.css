@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Space between Active and Complete sections */
+    margin-top: 20px;
+}
+
+.active-section, .complete-section {
+    flex: 1;
+    min-width: 300px; /* Adjust the minimum width as needed */
+}
+
+.Tablee {
+    width: 100%; /* Ensure the table takes full width of its section */
+}
+
+.complete-sec {
+    margin-top: 0; /* Remove margin in the Complete component for better alignment */
+}

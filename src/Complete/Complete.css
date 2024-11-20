@@ -1,0 +1,35 @@
+.complete-sec {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.Tablee {
+    width: 100%; /* Ensure the table takes full width of its container */
+    border-collapse: collapse;
+}
+
+.Tablee th, .Tablee td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.Tablee th {
+    background-color: #4caf50;
+    color: white;
+}
+
+.Tablee tr:hover {
+    background-color: #f1f1f1;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Tablee td {
+    font-size: 16px;
+    color: #555;
+}
